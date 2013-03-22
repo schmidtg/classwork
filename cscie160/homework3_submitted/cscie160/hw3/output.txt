@@ -1,0 +1,729 @@
+Current Floor: 1
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 3 to Floor 4 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 5 to Floor 3 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 2 to Floor 4 has not arrived.
+  Passenger going from Floor 3 to Floor 3 has not arrived.
+  Passenger going from Floor 3 to Floor 5 has not arrived.
+  Passenger going from Floor 4 to Floor 4 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 2.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 4.
+Current Floor: 2
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 3 to Floor 4 has not arrived.
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 2 to Floor 4 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 5 to Floor 3 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 3 to Floor 3 has not arrived.
+  Passenger going from Floor 3 to Floor 5 has not arrived.
+  Passenger going from Floor 4 to Floor 4 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 3.
+Unloaded 1 passenger.
+Boarding passenger for Floor 3.
+Boarding passenger for Floor 5.
+Current Floor: 3
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 3 to Floor 4 has not arrived.
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 2 to Floor 4 has not arrived.
+  Passenger going from Floor 3 to Floor 3 has not arrived.
+  Passenger going from Floor 3 to Floor 5 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 4 to Floor 4 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 3.
+Unloaded 1 passenger.
+Current Floor: 3
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 3 to Floor 4 has not arrived.
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 2 to Floor 4 has not arrived.
+  Passenger going from Floor 3 to Floor 5 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 4 to Floor 4 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 4.
+Unloaded 2 passengers.
+Boarding passenger for Floor 4.
+Boarding passenger for Floor 9.
+Current Floor: 4
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 3 to Floor 5 has not arrived.
+  Passenger going from Floor 4 to Floor 4 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 4.
+Unloaded 1 passenger.
+Current Floor: 4
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 3 to Floor 5 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 5.
+Unloaded 1 passenger.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Current Floor: 5
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 5 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 5.
+Unloaded 2 passengers.
+Current Floor: 5
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 6.
+Boarding passenger for Floor 3.
+Boarding passenger for Floor 2.
+Current Floor: 6
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 6 to Floor 3 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 3.
+Unloaded 1 passenger.
+Current Floor: 3
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 6 to Floor 2 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 2.
+Unloaded 1 passenger.
+Current Floor: 2
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 1.
+Boarding passenger for Floor 9.
+Boarding passenger for Floor 5.
+Current Floor: 1
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 5 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+At bottom, going to top.
+
+Stopping on Floor 5.
+Unloaded 1 passenger.
+Current Floor: 5
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 2 to Floor 7 has not arrived.
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 7.
+Unloaded 1 passenger.
+Boarding passenger for Floor 4.
+Boarding passenger for Floor 6.
+Current Floor: 7
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+  Passenger going from Floor 7 to Floor 6 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 6.
+Unloaded 1 passenger.
+Current Floor: 6
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 7 to Floor 4 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 4.
+Unloaded 1 passenger.
+Current Floor: 4
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 7 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+At bottom, going to top.
+
+Stopping on Floor 8.
+Boarding passenger for Floor 9.
+Boarding passenger for Floor 7.
+Current Floor: 8
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 8 to Floor 7 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 7 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 7.
+Unloaded 1 passenger.
+Current Floor: 7
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 4 to Floor 9 has not arrived.
+  Passenger going from Floor 1 to Floor 9 has not arrived.
+  Passenger going from Floor 8 to Floor 9 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 7 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 7 has arrived.
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+At bottom, going to top.
+
+Stopping on Floor 9.
+Unloaded 3 passengers.
+Boarding passenger for Floor 9.
+Boarding passenger for Floor 4.
+Current Floor: 9
+
+Passengers On Board Going Up: 
+  Passenger going from Floor 9 to Floor 9 has not arrived.
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 7 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 7 has arrived.
+  Passenger going from Floor 4 to Floor 9 has arrived.
+  Passenger going from Floor 1 to Floor 9 has arrived.
+  Passenger going from Floor 8 to Floor 9 has arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 9.
+Unloaded 1 passenger.
+Current Floor: 9
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 9 to Floor 4 has not arrived.
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 7 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 7 has arrived.
+  Passenger going from Floor 4 to Floor 9 has arrived.
+  Passenger going from Floor 1 to Floor 9 has arrived.
+  Passenger going from Floor 8 to Floor 9 has arrived.
+  Passenger going from Floor 9 to Floor 9 has arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+
+Stopping on Floor 4.
+Unloaded 1 passenger.
+Current Floor: 4
+
+All Passenger Statuses: 
+  Passenger going from Floor 6 to Floor 2 has arrived.
+  Passenger going from Floor 5 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 3 has arrived.
+  Passenger going from Floor 6 to Floor 3 has arrived.
+  Passenger going from Floor 3 to Floor 4 has arrived.
+  Passenger going from Floor 2 to Floor 4 has arrived.
+  Passenger going from Floor 4 to Floor 4 has arrived.
+  Passenger going from Floor 7 to Floor 4 has arrived.
+  Passenger going from Floor 9 to Floor 4 has arrived.
+  Passenger going from Floor 3 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 5 to Floor 5 has arrived.
+  Passenger going from Floor 1 to Floor 5 has arrived.
+  Passenger going from Floor 7 to Floor 6 has arrived.
+  Passenger going from Floor 2 to Floor 7 has arrived.
+  Passenger going from Floor 8 to Floor 7 has arrived.
+  Passenger going from Floor 4 to Floor 9 has arrived.
+  Passenger going from Floor 1 to Floor 9 has arrived.
+  Passenger going from Floor 8 to Floor 9 has arrived.
+  Passenger going from Floor 9 to Floor 9 has arrived.
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+At bottom, going to top.
+
+Stopping on Floor 10.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 8.
+Current Floor: 10
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+  Passenger going from Floor 10 to Floor 8 has not arrived.
+
+At top, going to ground floor.
+
+Stopping on Floor 8.
+Unloaded 1 passenger.
+Current Floor: 8
+
+Passengers On Board Going Down: 
+  Passenger going from Floor 10 to Floor 7 has not arrived.
+
+
+Stopping on Floor 7.
+Unloaded 1 passenger.
+Current Floor: 7
+
+At bottom, going to top.
+At top, going to ground floor.
+At bottom, going to top.
+At top, going to ground floor.
+At bottom, going to top.
+At top, going to ground floor.
+At bottom, going to top.
+At top, going to ground floor.
+At bottom, going to top.
+Current Floor: 9
+
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Invalid Floor 15. Must be between 1 and 10.
+Not boarding this passenger.
+
+Stopping on Floor 5.
+Unloaded 4 passengers.
+Current Floor: 5
+
+At bottom, going to top.
+At top, going to ground floor.
+Current Floor: 7

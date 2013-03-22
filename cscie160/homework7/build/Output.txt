@@ -1,0 +1,48 @@
+Sample output
+
+Terminal #1
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ rmiregistry &
+[1] 475
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ java cscie160.project.ATMServer
+ATMFactoryImpl bound
+Looking up bank and security... ..lookup successful.
+Adding listener $Proxy4
+
+
+
+Terminal #2
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ java cscie160.project.BankServer
+Security bound
+Bank bound
+
+
+
+Terminal #3
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ java cscie160.project.Client
+Looking up atmfactory... ..lookup successful.
+Balance(0000001): 0.0
+Balance(0000002): 100.0
+Balance(0000003): 500.0
+
+Failed PIN check on account 1.
+Failed as expected: cscie160.project.AuthPinException: PIN does not match.
+
+Not authenticated to withdraw for account 2.
+Failed as expected: cscie160.project.AuthAcctException: Withdraw permission not authenticated.
+Failed as expected: cscie160.project.InsufficientFundsException: Sorry, insufficient funds.
+
+Deposit $500.0 into account 1
+
+Deposit $100.0 into account 2
+
+Withdraw $100.0 from account 1.
+
+Withdraw $300.0 from account 3.
+
+Sorry, but the ATM is out of order.
+Failed as expected: cscie160.project.ATMEmptyException: Not enough cash available in ATM.
+
+Transfer $100.0 from account 1 to account 2
+Balance(0000001): 300.0
+Balance(0000002): 300.0
+Balance(0000003): 200.0

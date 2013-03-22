@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Graham-Schmidts-MacBook-Pro.local" name="ATMImplementationTest" tests="1" time="0.0" timestamp="2011-03-30T02:21:19">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jikes.class.path" value=":/System/Library/Frameworks/JavaVM.framework/Home/../Classes/alt-rt.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/charsets.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/dt.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/jconsole.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/management-agent.jar:/System/Library/Frameworks/JavaVM.framework/Home/../Classes/ui.jar" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/usr/share/java/ant-1.8.1" />
+    <property name="jar.dir" value="build/jar" />
+    <property name="java.runtime.version" value="1.6.0_22-b04-307-10M3261" />
+    <property name="user.name" value="grahamschmidt" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="build.dir" value="build" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="ant.project.default-target" value="main" />
+    <property name="ant.project.name" value="hw4" />
+    <property name="java.version" value="1.6.0_22" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="build/classes" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="main-class" value="cscie160.hw4.Server" />
+    <property name="ant.file" value="/Users/grahamschmidt/Java/hw4server/build.xml" />
+    <property name="os.version" value="10.6.6" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="17.1-b03-307" />
+    <property name="report.dir" value="build/junitreport" />
+    <property name="ant.library.dir" value="/usr/share/java/ant-1.8.1/lib" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.hw4" value="/Users/grahamschmidt/Java/hw4server/build.xml" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/grahamschmidt" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="/Users/grahamschmidt/Java/hw4server/lib/ant-junit.jar:/Users/grahamschmidt/Java/hw4server/lib/junit-4.1.jar:/Users/grahamschmidt/Java/hw4server/lib/log4j-1.2.16.jar:/Users/grahamschmidt/Java/hw4server/build/jar/hw4Server.jar:/Library/Java/Extensions/junit-4.1.jar:/usr/share/java/ant-1.8.1/lib/ant-launcher.jar:/usr/share/java/ant-1.8.1/lib/ant.jar:/usr/share/java/ant-1.8.1/lib/ant-junit.jar" />
+    <property name="ant.version" value="Apache Ant version 1.8.1 compiled on September 21 2010" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/var/folders/N3/N3liN4HhHZGeiMV1zw7jX++++TI/-Tmp-/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="mrj.build" value="10M3261" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="mrj.version" value="1060.1.6.0_22-307" />
+    <property name="user.dir" value="/Users/grahamschmidt/Java/hw4server" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.file.type.hw4" value="file" />
+    <property name="basedir" value="/Users/grahamschmidt/Java/hw4server" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/java/ant-1.8.1/lib/ant.jar" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="junit" />
+    <property name="javadoc.dir" value="build/javadoc" />
+  </properties>
+  <error message="ATMImplementationTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: ATMImplementationTest
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+Overview
+Homework #2
+Resubmitted February 28, 2011
+Graham Schmidt
+Harvard ID: 30825489
+
+TO run my program,
+java -classpath HW2.jar cscie160.hw2.Demo
+
+Assumptions
+- Can only board one passenger at a time.
+- Can only add one waiting passenger at a time.
+- Any passengers queued after capacity (overflow) get sent to ground floor to be unloaded.
+- Any waiting passengers get sent to ground floor to be unloaded.
+
+Description: I solved the 2nd assignment by implementing a Floor class to handle all related information specific to a floor, such as it's relevant floor number, how many passengers are on board, how many passengers are waiting to board for that floor number, and which floor number those passengers waiting to board are going.
+
+I threw two exceptions in my boardPassenger method, one exception if the capacity of the elevator was exceeded and the other when a floor number was requested beyond the number of floors in the building. I handled the Capacity exception by telling the user the capacity was exceeded, I passed handling to the floor class to queue any waiting passengers that tried to board.
+
+Execution
+When executing my program, I accounted for a number of situations. I made sure to board passengers on the way up and on the way down. I made sure to throw an exception if the capacity was exceeded and if an invalid floor request was made. If the capacity was exceeded, I threw an exception notifying the Elevator reached capacity, then I registered a stop request to notify the elevator to come back to that floor and pick up any waiting passengers. I also made sure to load a large number of passengers waiting on a particular floor.

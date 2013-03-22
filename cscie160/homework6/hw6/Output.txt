@@ -1,0 +1,62 @@
+********************
+Server Output
+********************
+Graham-Schmidts-MacBook-Pro:hw6server grahamschmidt$ ant
+Buildfile: /Users/grahamschmidt/Java/homework6/hw6server/build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/homework6/hw6server/build/classes
+    [javac] Compiling 8 source files to /Users/grahamschmidt/Java/homework6/hw6server/build/classes
+     [copy] Copying 1 file to /Users/grahamschmidt/Java/homework6/hw6server/build/classes
+
+jar:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/homework6/hw6server/build/jar
+      [jar] Building jar: /Users/grahamschmidt/Java/homework6/hw6server/build/jar/hw6Server.jar
+
+run:
+     [java] Starting server socket on port 7777...
+     [java] Listening for a client request...
+     [java] Running request in thread: Thread-4
+     [java] Running request in thread: Thread-0
+     [java] Running request in thread: Thread-1
+     [java] Running request in thread: Thread-3
+     [java] Running request in thread: Thread-2
+     [java] Running request in thread: Thread-2
+     [java] Running request in thread: Thread-3
+     [java] Client serviced
+^CGraham-Schmidts-MacBook-Pro:hw6server grahamschmidt$
+
+********************
+Client Output
+********************
+
+Graham-Schmidts-MacBook-Pro:hw6client grahamschmidt$ ant
+Buildfile: /Users/grahamschmidt/Java/homework6/hw6client/build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/homework6/hw6client/build/classes
+    [javac] Compiling 6 source files to /Users/grahamschmidt/Java/homework6/hw6client/build/classes
+     [copy] Copying 1 file to /Users/grahamschmidt/Java/homework6/hw6client/build/classes
+
+jar:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/homework6/hw6client/build/jar
+      [jar] Building jar: /Users/grahamschmidt/Java/homework6/hw6client/build/jar/hw6Client.jar
+
+run:
+     [java] Balance: 0.0
+     [java]  Depositing: 1000
+     [java] Balance: 1000.0
+     [java]  Withdrawing: 250
+     [java] Balance: 750.0
+     [java]  Withdrawing: 750
+     [java] Balance: 0.0
+
+main:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Graham-Schmidts-MacBook-Pro:hw6client grahamschmidt$ 

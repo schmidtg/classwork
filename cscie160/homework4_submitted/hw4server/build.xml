@@ -1,0 +1,83 @@
+<!-- build specification to demonstrate using ant -->
+<project name="hw4" basedir="." default="main">
+	<description>
+        Builds the Homework #4 files
+    </description>
+	<property name="src.dir"     value="src"/>
+    <property name="build.dir"   value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
+	<property name="main-class"  value="cscie160.hw4.Server"/>
+	<property name="lib.dir"     value="lib"/>
+    <property name="report.dir"  value="${build.dir}/junitreport"/>
+    <property name="javadoc.dir"  value="${build.dir}/javadoc"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+    
+	<target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="compile" description="Compiles the Task">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" classpathref="classpath"/>
+        <copy todir="${classes.dir}">
+            <fileset dir="${src.dir}" excludes="**/*.java"/>
+        </copy>
+    </target>
+	
+    <target name="jar" description="JARs the Task" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}Server.jar" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+           </manifest>
+        </jar>
+    </target>
+  
+    <target name="run" depends="jar">
+       <java fork="yes" classname="${main-class}">
+            <classpath>
+                <path refid="classpath"/>
+                <path id="application" location="${jar.dir}/${ant.project.name}Server.jar"/>
+            </classpath>
+ 	 		<arg value="7777"/>
+       </java>
+    </target>
+    
+    <target name="junit" depends="jar">
+         <mkdir dir="${report.dir}"/>
+         <junit printsummary="yes">
+            <classpath>
+                <path refid="classpath"/>
+                <path location="${jar.dir}/${ant.project.name}Server.jar"/>
+            </classpath>
+
+            <formatter type="xml"/>
+            
+            <batchtest fork="yes" todir="${report.dir}">
+                <fileset dir="${src.dir}" includes="*Test.java"/>
+            </batchtest>
+        </junit>
+    </target>
+    
+    <target name="junitreport">
+        <junitreport todir="${report.dir}">
+            <fileset dir="${report.dir}" includes="TEST-*.xml"/>
+            <report todir="${report.dir}"/>
+        </junitreport>
+    </target>
+    
+    <target name="javadoc" description="Create Javadocs">
+        <mkdir dir="${javadoc.dir}"/>
+        <javadoc destdir="${javadoc.dir}" access="public" author="true">
+            <fileset dir="${src.dir}" includes="**/*.java"/>
+        </javadoc>
+    </target>
+
+    <target name="clean-build" depends="clean,jar"/>
+
+    <target name="main" depends="clean,run"/>
+</project>

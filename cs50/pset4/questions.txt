@@ -1,0 +1,65 @@
+PSET4 questions
+Graham Schmidt
+
+0. How many different colors does each format support? 
+GIF  - 8-bit  - 256 colors
+BMP  - 24-bit - 16,777,216 colors
+JPEG - 24-bit - 16,777,216 colors
+PNG  - 48-bit - 281,474,976,710,656 colors
+
+1. Which of these formats supports animation?  
+GIF
+
+2. What’s the difference between lossy and lossless compression?
+Lossless preserves all color information in the file, whereas lossy will "throw away" color information that's less noticed by a user.
+
+3. Which of these formats is lossy-compressed? 
+JPEG
+
+4. What happens, technically speaking, when a file is deleted on a FAT file system?
+Two things occur: first, the system modifies the first character of the filename in the directory to mark it as deleted, and second, it moves the FAT file clusters to the hard drives' list of free clusters, signifying that those clusters are available to be written to again.
+
+5. What can someone like you do to ensure (with high probability) that files you delete cannot be recovered?
+Use a sanitization program that securely overwrites the information located at the deleted file's memory locations.
+
+6. What’s stdint.h?
+A header file that declares sets of integer types having specified widths.
+
+7. What’s the point of using uint8_t, uint32_t, int32_t, and uint16_t in a program?
+It fixes width (length of bytes) on systems where the standard integer width can vary. It's also an efficient way to store the exact amount of bytes needed for an integer.
+
+8. How many bytes is a BYTE, a DWORD, a LONG, and a WORD, respectively?
+BYTE  - 1 bytes 
+DWORD - 4 bytes 
+LONG  - 4 bytes 
+WORD  - 2 bytes
+
+9. What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be?
+0x42 0x4d
+
+10. What’s the difference between bfSize and biSize?
+bfSize refers to the size of the BMP file in bytes (located in the BITMAPFILEHEADER), whereas biSize refers to the size of the BMP file header structure (40 bytes).
+
+11. What does it mean if biHeight is negative?
+The bitmap is a top-down DIB and its origin is the upper left corner.
+
+12. What field in BITMAPINFOHEADER specifies the BMP’s color depth (i.e., bits per pixel)?
+biBitCount
+
+13. Why might fopen return NULL in copy.c:37?
+If there is no memory available for the file to be copied to, or, if the filename supplied in the 2nd argument didn't exist.
+
+14. Why is the third argument to fread always 1 in our code?
+Because we're reading one object at a time.
+
+15. What value does copy.c:70 assign padding if bi.biWidth is 3?
+3
+
+16. What does fseek do?
+Moves to a specific location in a file
+
+17. What is SEEK_CUR?
+Seeks from the current location
+
+18. Whodunit?
+Fozzy

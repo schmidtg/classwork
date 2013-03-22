@@ -1,0 +1,24 @@
+Overview
+Homework #7
+Submitted April 26, 2011
+Graham Schmidt
+Harvard ID: 30825489
+
+Description:
+The homework implements threading in our ATM client/server program. The Server creates 5 threads on startup, passes each thread a reference to a collection that contains worker-objects filled with commands to execute that were sent from the client to the server. Through the effective use of wait/notify, we implement a simple Thread pool that allows us to use multiple threads to process work from a client.
+
+Assumptions
+- there is only one Account object
+- the Client code that deposits/withdraws amounts is already provided
+
+Execution
+1. Extract the hw4server.jar
+2. Extract the hw4client.jar
+3. In the hw4server directory, type 'ant' (the server should be started on port 7777)
+4. In the hw4client directory, type 'ant'
+
+Known Problems
+Somehow the Server does not always return to the command prompt and you must type CTNL-C to stop it running.
+
+Sample Output
+View a sample output from my terminals in Output.txt

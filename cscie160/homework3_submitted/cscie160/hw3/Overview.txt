@@ -1,0 +1,21 @@
+Overview
+Homework #3
+Resubmitted March 8, 2011
+Graham Schmidt
+Harvard ID: 30825489
+
+To run my program,
+java -classpath HW3.jar cscie160.hw3.Demo
+
+Assumptions
+- Can only board one passenger at a time.
+- Can only add one waiting passenger at a time.
+- If the elevator is full, the passengers are queued until the elevator returns.
+- After each passenger arrives at their destination floor, they get added to the 'PassengersArrived' queue. This queue keeps track of the passengers who have arrived.
+
+Description: I solved the 3rd assignment by creating a Passenger class to handle all passengers on board (and queued) for the Elevator. This Passenger class replaces the separate incremented variables that previously kept track of passengers on the elevator. The new Passenger object keeps track of where the passenger boarded, which destination floor they are going to and the status of whether the passenger has arrived or not.
+
+I used three collections of Passengers in my Floor class that kept track of passengers going up, down and those who arrived. Passengers were removed from the up/down queues as they were unloaded, and I added new passengers to the elevator's collection queues from the floor queues as I boarded any passengers waiting on a particular floor.
+
+Execution
+When executing my program, I made sure to create separate passenger objects which could be added directly to the elevator (instead of being added via queues to go up or down). I also created passengers for each floor that had random destination floors, and then proceeded to board these passengers and unload them on the appropriate floors.

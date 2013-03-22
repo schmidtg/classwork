@@ -1,0 +1,115 @@
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ ant clean
+Buildfile: /Users/grahamschmidt/Java/hw4server/build.xml
+
+clean:
+   [delete] Deleting directory /Users/grahamschmidt/Java/hw4server/build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ ant clean-build
+Buildfile: /Users/grahamschmidt/Java/hw4server/build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4server/build/classes
+    [javac] Compiling 10 source files to /Users/grahamschmidt/Java/hw4server/build/classes
+     [copy] Copying 1 file to /Users/grahamschmidt/Java/hw4server/build/classes
+
+jar:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4server/build/jar
+      [jar] Building jar: /Users/grahamschmidt/Java/hw4server/build/jar/hw4Server.jar
+
+clean-build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ cd build/jar/
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ ls
+hw4Server.jar
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ java -jar hw4Server.jar 7777
+Accepting clients now
+Client acquired on port #7777, reading from socket
+Client serviced
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ java -classpath hw4Server.jar cscie160.hw4.AccountTest
+.
+Time: 0.001
+
+OK (1 test)
+
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ java -classpath hw4Server.jar cscie160.hw4.ATMImplementationTest
+..
+Time: 0.002
+
+OK (2 tests)
+
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ cd ../../
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ ant junit
+Buildfile: /Users/grahamschmidt/Java/hw4server/build.xml
+
+compile:
+    [javac] Compiling 10 source files to /Users/grahamschmidt/Java/hw4server/build/classes
+
+jar:
+      [jar] Building jar: /Users/grahamschmidt/Java/hw4server/build/jar/hw4Server.jar
+
+junit:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4server/build/junitreport
+    [junit] Running ATMImplementationTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] Test ATMImplementationTest FAILED
+    [junit] Running ATMProxyTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] Test ATMProxyTest FAILED
+    [junit] Running AccountTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] Test AccountTest FAILED
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ ant junitreport
+Buildfile: /Users/grahamschmidt/Java/hw4server/build.xml
+
+junitreport:
+[junitreport] Processing /Users/grahamschmidt/Java/hw4server/build/junitreport/TESTS-TestSuites.xml to /var/folders/N3/N3liN4HhHZGeiMV1zw7jX++++TI/-Tmp-/null1352166386
+[junitreport] Loading stylesheet jar:file:/usr/share/java/ant-1.8.1/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 666ms
+[junitreport] Deleting: /var/folders/N3/N3liN4HhHZGeiMV1zw7jX++++TI/-Tmp-/null1352166386
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ ant javadoc
+Buildfile: /Users/grahamschmidt/Java/hw4server/build.xml
+
+javadoc:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4server/build/javadoc
+  [javadoc] Generating Javadoc
+  [javadoc] Javadoc execution
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/ATM.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/ATMException.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/ATMImplementation.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/ATMImplementationTest.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/ATMProxy.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/ATMProxyTest.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/Account.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/AccountTest.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/Commands.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4server/src/Server.java...
+  [javadoc] Constructing Javadoc information...
+  [javadoc] Standard Doclet version 1.6.0_22
+  [javadoc] Building tree for all the packages and classes...
+  [javadoc] Building index for all the packages and classes...
+  [javadoc] Building index for all classes...
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Graham-Schmidts-MacBook-Pro:hw4server grahamschmidt$ cd build/jar/
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ pwd
+/Users/grahamschmidt/Java/hw4server/build/jar
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ ls
+hw4Server.jar
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ java -jar hw4Server.jar 7777
+Accepting clients now
+Client acquired on port #7777, reading from socket
+Client serviced
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$

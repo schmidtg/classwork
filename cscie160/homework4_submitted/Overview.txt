@@ -1,0 +1,54 @@
+Overview
+Homework #4
+Submitted March 28, 2011
+Graham Schmidt
+Harvard ID: 30825489
+
+Description:
+This program assignment was to create the Account class (to hold a balance) and to implement the ATMImplementation class (which handled the logic to deposit, withdraw and show the balance on an account). I wrote a junit Test class for each class which used assertEquals to determine if the class was working correctly. I was able to compile these and run them in my IDE (Intellijdea).
+
+I've include the following jar files in 'lib' folder in order to make this project work:
+ant-junit.jar
+junit-4.1.jar
+log4j-1.2.16.jar
+
+
+Assumptions
+- If not port is specified as an argument when running the Server, the default port is 1099
+- My JUnit test cases compiled fine in my IDE, but I could not get them to work using ant. I tried numerous attempts to get them to work, even using logger, but regardless what I would I do, I'd always get a java.lang.ClassNotFoundException…VERY FRUSTRATING!!! Please help.
+- I can easily modify the build.xml for either jar file (client/server) based on the ant targets. These include changing the source directory, the class output directory, the jar output directory, deleting the compiled classes (clean), and running my default class.
+- when running ant for the server files, the default is to not run the server application as it pause and wait for a client to connect, so just type 'ant clean-build' to build it without compiling
+- to run the junit testing, type 'ant junit'
+- to clean the file, type 'ant clean'
+
+
+Execution:
+To build the program using ant, you must build two separate jar files.
+1. Go to hw4server directory
+2. Type 'ant clean' to remove any previous builds.
+3. Type 'ant clean-build' (this will build a clean version, create an executable jar, and copy the classes to a separate folder)
+4. To run the program, navigate to the build/jar directory and type
+java -jar hw4Server.jar 7777
+5. To test the junit files, navigate to build/jar directory and type
+java -classpath hw4Server.jar cscie160.hw4.AccountTest
+java -classpath hw4Server.jar cscie160.hw4.ATMImplementationTest
+6. Navigate to the home directory and type 'ant junit' to run junit tests.
+  *I had problems getting my junit tests to compile using ant. I did get the reporting to work though, but the error in the report files was always 'java.lang.ClassNotFoundException'. No matter what I did in ant to try and re-run the junta, or to my system environment, things did not work.
+7. To convert the junit reports from XML to HTML, in the home directory type 'ant junitreport'
+8. To generate the javadoc, type 'ant javadoc'
+
+In another terminal, build the client jar file using ant.
+1. Go to hw4client directory
+2. Type 'ant clean' to remove any previous builds.
+3. Type 'ant clean-build' (this will build a clean version, create an executable jar, and copy the classes to a separate folder)
+4. Before running the client, make sure to start the server. Run the client by navigating to the build/jar directory and type
+java -jar hw4Client.jar localhost 7777
+5. To test the junit test for ATMProxy, first start the server on port 7777. Then navigate to the build/jar directory and type
+java -classpath hw4Client.jar cscie160.hw4.ATMProxyTest
+6. Navigate back to the home directory and type 'ant junit' to run junit tests.
+  *I had problems getting my junit tests to compile using ant. I did get the reporting to work though, but the error in the report files was always 'java.lang.ClassNotFoundException'. No matter what I did in ant to try and re-run the junta, or to my system environment, things did not work.
+7. To convert the junit reports from XML to HTML, in the home directory type 'ant junitreport'
+8. To generate the javadoc, type 'ant javadoc'
+
+Sampe Output
+View a sample output from my terminals in the output-server.txt and output-client.txt files

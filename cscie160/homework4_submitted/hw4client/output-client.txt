@@ -1,0 +1,122 @@
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ ant clean
+Buildfile: /Users/grahamschmidt/Java/hw4client/build.xml
+
+clean:
+   [delete] Deleting directory /Users/grahamschmidt/Java/hw4client/build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ ant clean-build
+Buildfile: /Users/grahamschmidt/Java/hw4client/build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4client/build/classes
+    [javac] Compiling 10 source files to /Users/grahamschmidt/Java/hw4client/build/classes
+     [copy] Copying 1 file to /Users/grahamschmidt/Java/hw4client/build/classes
+
+jar:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4client/build/jar
+      [jar] Building jar: /Users/grahamschmidt/Java/hw4client/build/jar/hw4Client.jar
+
+clean-build:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ cd build/jar/
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ java -jar hw4Client.jar localhost 7777
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+Balance: 0.0
+ Depositing: 1000
+ATMProxy writing command to server: DEPOSIT
+ATMProxy writing command to server: BALANCE
+Server returned: 1000.0
+Balance: 1000.0
+ Withdrawing: 250
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 750.0
+Balance: 750.0
+ Withdrawing: 750
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+Balance: 0.0
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ java -classpath hw4Client.jar cscie160.hw4.ATMProxyTest
+.ATMProxy writing command to server: DEPOSIT
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+ATMProxy writing command to server: DEPOSIT
+ATMProxy writing command to server: BALANCE
+Server returned: 1000.0
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 500.0
+
+Time: 0.024
+
+OK (1 test)
+
+Graham-Schmidts-MacBook-Pro:jar grahamschmidt$ cd ../../
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ ant junit
+Buildfile: /Users/grahamschmidt/Java/hw4client/build.xml
+
+compile:
+    [javac] Compiling 10 source files to /Users/grahamschmidt/Java/hw4client/build/classes
+
+jar:
+      [jar] Building jar: /Users/grahamschmidt/Java/hw4client/build/jar/hw4Client.jar
+
+junit:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4client/build/junitreport
+    [junit] Running ATMImplementationTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] Test ATMImplementationTest FAILED
+    [junit] Running ATMProxyTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] Test ATMProxyTest FAILED
+    [junit] Running AccountTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] Test AccountTest FAILED
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ ant junitreport
+Buildfile: /Users/grahamschmidt/Java/hw4client/build.xml
+
+junitreport:
+[junitreport] Processing /Users/grahamschmidt/Java/hw4client/build/junitreport/TESTS-TestSuites.xml to /var/folders/N3/N3liN4HhHZGeiMV1zw7jX++++TI/-Tmp-/null910582740
+[junitreport] Loading stylesheet jar:file:/usr/share/ant/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 613ms
+[junitreport] Deleting: /var/folders/N3/N3liN4HhHZGeiMV1zw7jX++++TI/-Tmp-/null910582740
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ ant javadoc
+Buildfile: /Users/grahamschmidt/Java/hw4client/build.xml
+
+javadoc:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/hw4client/build/javadoc
+  [javadoc] Generating Javadoc
+  [javadoc] Javadoc execution
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/ATM.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/ATMException.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/ATMImplementation.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/ATMImplementationTest.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/ATMProxy.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/ATMProxyTest.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/Account.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/AccountTest.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/Client.java...
+  [javadoc] Loading source file /Users/grahamschmidt/Java/hw4client/src/Commands.java...
+  [javadoc] Constructing Javadoc information...
+  [javadoc] Standard Doclet version 1.6.0_22
+  [javadoc] Building tree for all the packages and classes...
+  [javadoc] Building index for all the packages and classes...
+  [javadoc] Building index for all classes...
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Graham-Schmidts-MacBook-Pro:hw4client grahamschmidt$ 

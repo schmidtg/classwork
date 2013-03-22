@@ -1,0 +1,42 @@
+Overview
+Homework #5
+Submitted April 10, 2011
+Graham Schmidt
+Harvard ID: 30825489
+
+Description:
+This program implements the Automated Teller Machine (ATM) using Java's Remote Method Invocation (RMI). It supports a variety of accounts as well as some basic operations including deposit, withdraw and get a balance. The ATM is run in its own process and handles remote requests from a client running in another process.
+
+Assumptions
+- The server receives requests on port 1099
+- RMI is configured and an RMISecurityManager can run in the JVM
+- a general security policy is used to grant permissions to the client accessing the remote object
+- I had to hard-code the filepath for my java.rmi.server.codebase to my home directoy on my computer, please change this accordingly to your environment
+
+Execution
+1. Run 'ant' in the base directory which will compile the java classes, build the jars and create the associated javadoc files. Unfortunately I had a small issue with the ordering of the the -classpath variable when invoking my jar from ant. I wanted ant to write the command as the following:
+
+java -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy -classpath /Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar cscie160.hw5.Server
+
+Where my main-class was the last argument on the command line and my security policy was at the beginning. When I invoked the above command from my 'build' directory I was able to start my server. However, ant would invoke my runServer jar in the following order:
+
+java -classpath /Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar cscie160.hw5.Server -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy
+
+This seemed to cause an exception. So eventually I abandoned trying to invoke and run everything from ant.
+
+2. The rmiregistry should've been invoked after running ant. To start the server, since the ant build was incomplete, type:
+java -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy -classpath /Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar cscie160.hw5.Server
+(where you substitute the directory for the java.rmi.codebase file:/... to the directory appropriate on your computer)
+
+3. Run the client.
+java -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy -classpath build/jar/hw5Client.jar cscie160.hw5.Client
+
+
+Alternate Execution
+1. After running ant, navigate to build/classes
+2. Run rmiregistry
+>> rmiregistry -J-cp -J. &
+3. Run the Server.
+>> java -Djava.security.policy=security.policy -cp . cscie160.hw5.Server
+4. In another terminal, run the Client from the build/classes directory.
+>> java -Djava.security.policy=security.policy -cp . cscie160.hw5.Client

@@ -1,0 +1,92 @@
+<!-- build specification to demonstrate using ant -->
+<project name="hw5" basedir="." default="main">
+	<description>
+        Builds the Homework #5 files
+    </description>
+	<property name="src.dir"     value="src"/>
+    <property name="build.dir"   value="build"/>
+    <property name="lib.dir"     value="lib"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
+	<property name="main-class-server"  value="cscie160.hw5.Server"/>
+	<property name="main-class-client"  value="cscie160.hw5.Client"/>
+	<property name="rmi.properties"  value="-Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/${jar.dir}/${ant.project.name}Server.jar -Djava.security.policy=${lib.dir}/security.policy"/>
+	<property name="package.dir" value="${src.dir}/cscie160/${ant.project.name}"/>
+    <property name="javadoc.dir"  value="${build.dir}/javadoc"/>
+
+    <path id="classpath">
+        <fileset dir="${package.dir}"/>
+    </path>
+    
+	<target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="compile" description="Compiles the Task">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" classpathref="classpath"/>
+        <copy todir="${classes.dir}">
+            <fileset dir="${src.dir}" excludes="**/*.java"/>
+            <fileset file="${lib.dir}/security.policy"/>
+        </copy>
+    </target>
+	
+    <target name="jarServer" description="JARs the Server" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}Server.jar" basedir="${classes.dir}" excludes="**/Client.class">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class-server}"/>
+           </manifest>
+        </jar>
+    </target>
+    
+    <target name="jarClient" description="JARs the Client" depends="jarServer">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}Client.jar" basedir="${classes.dir}" excludes="**/Server.class">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class-client}"/>
+           </manifest>
+        </jar>
+    </target>
+  
+  	<target name="rmiregistry" depends="jarClient">
+  		<echo message="Starting RMI registry on port 1099"/>
+  		<exec executable="rmiregistry" dir="${jar.dir}" spawn="true">
+  			<arg value="-J-cp"/>
+  			<arg value="-J${jar.dir}"/>
+  		</exec>
+  	</target>
+  
+    <target name="runServer" depends="rmiregistry">
+       <sleep seconds="2"/>
+       <echo message="Starting Server"/>
+       <java fork="yes" spawn="true" classname="${main-class-server}">
+            <arg value="${rmi.properties}"/>
+            <classpath>
+                <path location="${jar.dir}/${ant.project.name}Server.jar"/>
+            </classpath>
+       </java>
+    </target>
+
+    <target name="runClient" depends="runServer">
+       <sleep seconds="2"/>
+       <echo message="Starting Client"/>
+       <java fork="yes" classname="${main-class-client}">
+            <arg value="${rmi.properties}"/>
+            <classpath>
+                <path location="${jar.dir}/${ant.project.name}Client.jar"/>
+            </classpath>
+       </java>
+    </target>
+    
+    <target name="javadoc" description="Create Javadocs">
+        <mkdir dir="${javadoc.dir}"/>
+        <javadoc destdir="${javadoc.dir}" access="public" author="true">
+            <fileset dir="${src.dir}" includes="**/*.java"/>
+        </javadoc>
+    </target>
+
+    <target name="clean-build" depends="clean,jarServer,jarClient"/>
+
+    <target name="main" depends="clean,runClient,javadoc"/>
+</project>

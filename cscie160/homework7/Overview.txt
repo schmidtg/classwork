@@ -1,0 +1,32 @@
+Overview
+Homework #7
+Submitted May 10, 2011
+Graham Schmidt
+Harvard ID: 30825489
+
+Description:
+The final homework project had us create multiple server objects (ATMServer, Bank and Security) that were registered with the RMI registry. We then connected a client to an ATM which made remote calls to the server objects in order to process transactions on the account.
+
+The client prints out event handlers after each transaction that notify the user an action was performed.
+
+Assumptions
+- there were 3 Accounts created in the Bank implementation
+- I registered all server objects on port 1099
+- the Client code that deposits/withdraws amounts is already provided
+
+Execution
+1. After extracting the jar, navigate to the classes folder.
+2. Type 'rmiregsistry &' in the terminal window.
+3. In that same terminal window, start up the ATM server by typing:
+java cscie160.project.ATMServer
+4. In another terminal, start up the BankServer
+java cscie160.project.BankServer
+5. In another terminal, run the client.
+java cscie160.project.Client
+
+
+Known Problems
+You must type CTNL-C to stop all three processes from running.
+
+Sample Output
+View a sample output from my terminals in Output.txt

@@ -1,0 +1,96 @@
+Currently 0 passengers on board and 0 passengers waiting to board.
+Current Floor: 1
+
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 7.
+Boarding passenger for Floor 7.
+Elevator at capacity. Queued passenger on Floor 1.
+Currently 7 passengers on board and 1 passenger waiting to board.
+Current Floor: 1
+
+Stopping on Floor 7.
+Unloading 7 passengers. 0 passengers waiting to board on Floor 7.
+Currently 0 passengers on board and 18 passengers waiting to board.
+Current Floor: 7
+
+Stopping on Floor 8.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Currently 7 passengers on board and 11 passengers waiting to board.
+Current Floor: 8
+
+Stopping on Floor 1.
+Unloading 7 passengers. 1 passenger waiting to board on Floor 1.
+Boarding passenger for Floor 1.
+Currently 1 passenger on board and 10 passengers waiting to board.
+Current Floor: 1
+
+Currently 1 passenger on board and 10 passengers waiting to board.
+Current Floor: 7
+
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Boarding passenger for Floor 5.
+Elevator at capacity. Queued passenger on Floor 7.
+Elevator at capacity. Queued passenger on Floor 7.
+Elevator at capacity. Queued passenger on Floor 7.
+Invalid Floor 15. Must be between 1 and 10
+Stopping on Floor 5.
+Unloading 6 passengers. 0 passengers waiting to board on Floor 5.
+Currently 1 passenger on board and 13 passengers waiting to board.
+Current Floor: 5
+
+Stopping on Floor 7.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Currently 4 passengers on board and 10 passengers waiting to board.
+Current Floor: 7
+
+Stopping on Floor 1.
+Unloading 4 passengers. 0 passengers waiting to board on Floor 1.
+Currently 0 passengers on board and 10 passengers waiting to board.
+Current Floor: 1
+
+Stopping on Floor 8.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Currently 7 passengers on board and 3 passengers waiting to board.
+Current Floor: 8
+
+Stopping on Floor 1.
+Unloading 7 passengers. 0 passengers waiting to board on Floor 1.
+Currently 0 passengers on board and 3 passengers waiting to board.
+Current Floor: 1
+
+Stopping on Floor 8.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Boarding passenger for Floor 1.
+Currently 3 passengers on board and 0 passengers waiting to board.
+Current Floor: 8
+
+Stopping on Floor 1.
+Unloading 3 passengers. 0 passengers waiting to board on Floor 1.
+Currently 0 passengers on board and 0 passengers waiting to board.
+Current Floor: 1
+
+Currently 0 passengers on board and 0 passengers waiting to board.
+Current Floor: 5

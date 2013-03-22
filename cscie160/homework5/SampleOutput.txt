@@ -1,0 +1,133 @@
+EXECUTION USING JAR
+
+TERMINAL #1
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ pwd
+/Users/grahamschmidt/Java/homework5
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ ant clean
+Buildfile: /Users/grahamschmidt/Java/homework5/build.xml
+
+clean:
+   [delete] Deleting directory /Users/grahamschmidt/Java/homework5/build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ ant
+Buildfile: /Users/grahamschmidt/Java/homework5/build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/homework5/build/classes
+    [javac] Compiling 7 source files to /Users/grahamschmidt/Java/homework5/build/classes
+     [copy] Copying 1 file to /Users/grahamschmidt/Java/homework5/build/classes
+
+jarServer:
+    [mkdir] Created dir: /Users/grahamschmidt/Java/homework5/build/jar
+      [jar] Building jar: /Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar
+
+jarClient:
+      [jar] Building jar: /Users/grahamschmidt/Java/homework5/build/jar/hw5Client.jar
+
+rmiregistry:
+     [echo] Starting RMI registry on port 1099
+
+runServer:
+     [echo] Starting Server
+
+runClient:
+     [echo] Starting Client
+     [java] java.rmi.NotBoundException: atmfactory
+     [java] 	at sun.rmi.registry.RegistryImpl.lookup(RegistryImpl.java:106)
+     [java] 	at sun.rmi.registry.RegistryImpl_Skel.dispatch(Unknown Source)
+     [java] 	at sun.rmi.server.UnicastServerRef.oldDispatch(UnicastServerRef.java:386)
+     [java] 	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:250)
+     [java] 	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+     [java] 	at java.security.AccessController.doPrivileged(Native Method)
+     [java] 	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+     [java] 	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+     [java] 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+     [java] 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+     [java] 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+     [java] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+     [java] 	at java.lang.Thread.run(Thread.java:680)
+     [java] 	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:255)
+     [java] 	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:233)
+     [java] 	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:359)
+     [java] 	at sun.rmi.registry.RegistryImpl_Stub.lookup(Unknown Source)
+     [java] 	at java.rmi.Naming.lookup(Naming.java:84)
+     [java] 	at cscie160.hw5.Client.main(Unknown Source)
+
+main:
+
+BUILD SUCCESSFUL
+Total time: 13 seconds
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ ps
+  PID TTY           TIME CMD
+ 1765 ttys000    0:00.02 -bash
+ 1790 ttys000    0:00.57 /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -classpath /Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar cscie160.hw5.Server -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ ps -ax | grep rmiregistry
+ 1566 ??         0:08.15 /usr/bin/rmiregistry -J-cp -Jbuild/jar
+ 1794 ttys000    0:00.00 grep rmiregistry
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ java -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy -classpath /Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar cscie160.hw5.Server
+ATMFactoryImpl bound
+^CGraham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ 
+
+-------------------
+
+TERMINAL #2
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ java -Djava.rmi.server.codebase=file:/Users/grahamschmidt/Java/homework5/build/jar/hw5Server.jar -Djava.security.policy=lib/security.policy -classpath build/jar/hw5Client.jar cscie160.hw5.Client
+Initial Balances
+Balance(0000001): 0.0
+Balance(0000002): 100.0
+Balance(0000003): 500.0
+
+Depositting(0000001): 1000 
+Balance(0000001): 1000.0
+Withdrawing(0000002): 100 
+Balance(0000002): 0.0
+Depositting(0000003): 500 
+Balance(0000003): 1000.0
+
+Final Balances
+Balance(0000001): 1000.0
+Balance(0000002): 0.0
+Balance(0000003): 1000.0
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$
+
+-------------------
+ALTERNATE EXECUTION USING CLASSES
+
+TERMINAL #1
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ cd build/classes/
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ ps -ax | grep rmiregistry
+ 1566 ??         0:08.29 /usr/bin/rmiregistry -J-cp -Jbuild/jar
+ 1814 ttys000    0:00.00 grep rmiregistry
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ kill -9 1566
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ rmiregistry -J-cp -J. &
+[1] 1822
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ java -Djava.security.policy=security.policy -cp . cscie160.hw5.Server
+ATMFactoryImpl bound
+^CGraham-Schmidts-MacBook-Pro:classes grahamschmidt$ 
+
+-------------------
+
+TERMINAL #2
+Graham-Schmidts-MacBook-Pro:homework5 grahamschmidt$ cd build/classes/
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ java -Djava.security.policy=security.policy -cp . cscie160.hw5.Client
+Initial Balances
+Balance(0000001): 0.0
+Balance(0000002): 100.0
+Balance(0000003): 500.0
+
+Depositting(0000001): 1000 
+Balance(0000001): 1000.0
+Withdrawing(0000002): 100 
+Balance(0000002): 0.0
+Depositting(0000003): 500 
+Balance(0000003): 1000.0
+
+Final Balances
+Balance(0000001): 1000.0
+Balance(0000002): 0.0
+Balance(0000003): 1000.0
+Graham-Schmidts-MacBook-Pro:classes grahamschmidt$ 
